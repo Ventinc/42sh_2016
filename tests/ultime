@@ -1,0 +1,316 @@
+ls && ls -l
+ls -l &&
+&& ls -l
+&&
+toto && ls -l
+ls -l && toto
+toto && toto
+pwd ; cd / ; pwd
+setenv HOME / ; cd
+cd /root
+cd /tmp/azertfzsdzaqdsq
+pwd ; cd / toto ; pwd
+pwd ; cd / ; pwd ; cd - ; pwd
+ls -l >> toto
+ls -l >> toto ; ls -l >> toto ; cat -e toto
+touch toto ; chmod 000 toto ; ls -l >> toto
+>>
+>> toto
+>> toto ls -l
+ls -l >> /tmp
+echo simple
+echo toto\n
+echo toto\\n
+echo -n salut
+echo salut -n
+echo salut\rles\ramis
+echo salut\\rles\\ramis
+echo horizontal\ttab
+echo vertical\vtab
+echo -e hey\nlol
+echo $toto
+setenv toto titi ; echo $toto
+setenv THIS_IS_A_ENV_TEST / ; env | /bin/grep THIS_IS_A_ENV_TEST
+unsetenv THIS_VARIABLE ; env | /bin/grep THIS_VARIABLE
+ls
+/bin/ls
+./ls
+/ls
+../../bin/ls
+../../ls
+touch toto ; chmod 000 toto ; ./toto ; rm toto
+./42sh ; exit
+/42sh
+42sh
+/bin/42sh
+ededfe
+exit
+exit 0
+exit -0
+exit abc
+exit 9abc
+exit abc9
+exit -1
+exit 255
+exit 256
+exit 257
+exit 511
+exit 512
+exit 513
+exit -255
+exit -256
+exit -257
+exit -511
+exit -512
+exit -513
+exit 000000000000000000
+exit 999999999999999999
+exit -000000000000000000
+exit -9999999999999999999
+exit 1 2 4
+exit 42
+exit -42
+exit a42
+exit 4a2
+exit 42a
+exit 0.3
+exit 32 abc
+exit abc 32
+exit ls
+exit | ls
+exit ; ls
+ls
+ls | cat -e
+pwd
+ls > toto ; pwd >> toto ; >> toto ls ; < toto cat ; rm toto
+|
+;
+&&
+||
+ls | | | | | || || || ||
+;;;;;;;;;ls;;;;;;;;;
+cd /; cd -; cd /; cd ../; cd;pwd;
+cd / ; cd - ; cd / ; cd ../ ; cd ; pwd ;
+>>
+<<
+>
+<
+test <
+test >
+test <<
+test >>
+test &&
+test ||
+test | pwd ;
+ls -la /bin .
+setenv | /bin/grep PATH
+pwd ; cd /bin ; ls -l; cd .. ; /bin/cat ; pwd
+exit 255
+echo coucou
+mkdir plopplop ; cd plopplop ; pwd ; cd -\necho KEY\npwd\ncd /\nls ; cd - ; ls ; rmdir plopplop
+    \t  ls  -l;echo toto  ;  ls\t;\techo plop
+ls -lR /dev | cat  | tr y Y | grep ttY | cat | cat | cat | cat | cat | cat |cat
+ls > /toto
+setenv PATH /usr/sbin:/bin:/usr/local/sbin ; .
+/
+ls > toto > tata > titi ; cat titi; rm toto titi tata
+cat << EOF && touch YOLO ;ls>YOLO&&pwd>> YOLO &&cat YOLO|cut -c 2|grep M; rm YOLO
+;ls;
+echo coucou >test; < test ls | cat -e| wc -c >> test && >> test echo success ;cat test
+cat toto > /tmp/titi
+p<d
+ls /usr/
+setenv PATH /usr/bin:/bin:/usr/local/sbin ; ls > test;pwd|grep t| cat -e;..
+ls-l |grep z&&pwd
+setenv PATH /usr/bin:/bin:/usr/local/sbin ; ls-l | grep a&&pwd;..;ls>test;
+setenv PATH /bin:/usr/bin ; ls-l | grep a&&pwd;..;ls>>test; rm test
+ls <tab> -l << yo | grep rendu&&..
+<< toto cat > toto ; << EOF cat | sed s/toto/0/ > ma_note ; /bin/echo -n ma_note ; < ma_note cat; rm ma_note
+ls > toto;cat toto | grep Make
+cat << EOF
+ls ; pwd
+ls && pwd
+ls || pwd
+ls | grep auteur
+ls ;; pwd
+ls && pwd
+ls -l ; echo marsupilami
+ls -l ;      echo marsupilami
+ls -l ;;   ;  ; echo marsupilami
+ls -l|grep
+ls -l                              |grep
+ls -l|                grep
+ls | cat | cat | cat | grep test | cat | cat -e | grep testx
+ls -l|cat|grep lagoudale
+ls -l | cat -e | grep test | cat
+ls               -l            >                    totopepito
+ls >>> .totopepito
+>>> .totopepito
+ls > .totopepito | grep mysh
+>> .totopepito < Makefile | wc -l
+ls > .totopepito > .totopepita
+ls | grep i < .totopepito
+ls | cat < mysh;touch .totopepito
+cat mysh > .totopepito | ls
+>>.totopepito |
+ls |
+>.totopepito
+>>.totopepito
+cat mysh | | touch .totopepito
+|ls > .totopepito
+ls || grep mysh
+ls || grep mysh || wc -l
+ls ||| ls
+ls ; ls -l || pwd ; echo test
+ls ; ls -l && pwd ; echo test
+pwd && ls | grep auteur || echo test
+pwd ; ls && grep auteur && echo test
+ls | grep l | wc > toilettes > WC && echo ; rm WC toilettes
+ls | grep auteur | wc > toto && pwd
+ls && || wc;
+ls && ||
+cd
+cd zedfze
+cd auteur
+cd 42sh
+mkdir coucou && chmod 000 coucou && cd coucou && ls | grep coucou
+cd src
+cd / ; cd -
+cd fzefze && ls
+cd fzefze || ls
+cd auteur && ls
+cd auteur || ls
+cd 42sh && ls
+cd 42sh || ls
+cd coucou && ls
+cd coucou || ls
+cd src/ && ls
+cd src/ || ls
+cd && ls
+cd || ls
+cd / ; cd - && ls
+cd ; cd - || ls
+pwd ; ls | grep auteur && echo test
+pwd;ls | grep auteur && auteur
+ls > toto > tata > titi ; cat titi; rm titi toto tata
+pwd ; ls | grep Make > tata && cat tata ; rm tata
+pwd ; ls | grep Make > tata && cat tata ; rm tata
+ls && pwd | grep home > toto ; && echo test ;
+ls && pwd | grep home > toto ; | echo test ; rm toto
+ls && pwd || echo test ; && ls
+zaekf < apzezkea
+pwd ; ls && cat yolo || echo coucou xd xd && cd && cd - ; ls 42sh
+cat /etc/passwd | tr | tr -s abcdefghijklmnopqrstuvwxyz| cut -c 2 | grep -e a -e b -e c -e d -e e -e f -e g -e h -e i -e j -e k -e l -e m -e n -e o -e p -e q -e r -e s -e t -e u -e v -e w -e x -e y -e z |sort|uniq -c
+cat -e | cat -e | cat -e | ls
+ls > toto ; cat toto | cat toto|head -n 1 > .totopepito ; cat toto | cat toto|head -n 1 > .totopepita ; .totopepito
+> .totopepito ls      -l ; echo oui > raclette ; cat < .totopepito | grep i >> raclette ; ls -l /dev | grep tty | grep 3 >> raclette ; < raclette cat | grep t | > .totopepito wc -c > .totopepita ls      -l ; echo oui > tartiflette ; cat < .totopepita | grep i >> tartiflette ; ls -l dev | grep tty | grep 3 >> tartiflette ; < tartiflette cat | grep t | > .totopepita wc -c
+>> << > < >> < 
+> toto < titi | ls | cat -e < toto > titi
+which ls
+which toto
+which which | exit 0
+&& ls | toto
+ls || pwd && unsetenv PATH && ls || /bin/ls && cat /dev/ls || pwd;
+setenv PATH /usr/bin && . || ls
+ls | cat -e > toto < titi;
+/bin/ls /dev > fic ; grep tty < fic | tr y Y > ficout ; cat ficout | sed s/tt/uu/g > ficout2 ; cat ficout2 | tr u I
+ls /dev > toto && cat toto | cat -e >> toto ; cat < toto > toto;
+cat /bin/ls > myls; chmod 755 myls ; ./myls ; myls
+mkdir toto ; cd toto ; touch titi ; mkdir tutu ; cd tutu ; cd - ; cd titi || ls | wc -c
+ls && pwd || cd .. && ls || pwd && cd .. || /ls && exit 0
+>> toto ls && wc -c < toto | cat -e | grep a > tutu
+ls /dev > tutu << toto ; echo OK
+echo message\n && cat -e | tail -n 10 /bin/cat | > toto && cat toto | grep a | wc -l
+mkdir /root/je_me_permet_beaucoup_de_choses || echo tristesse ;
+echo ceci_est_un_gros_test ; >> tmp head -n 10 /bin/ls | tail -n 5 && cat -e < tmp > tmp2 ; grep -r command | wc -c > toto ; head -n 10 toto | cat -e 
+; ls ; wc -c || ls | cat - || e
+/bin/tar --help > tmp1 && /bin/touch --help > tmp2 && /bin/kill --help > tmp3 && /bin/mv --help > tmp4 && diff tmp1 tmp2 > a && diff tmp3 tmp4 > b && diff a b > tutu && cat tutu | grep a | wc -c && ls | wc -c >> /dev/null && echo KO
+<< wc -l cat /bin/bash >> tmp_a || < cat -e ls /bin > toto && head -n 10 toto | cat -e | wc -c 
+touch titi; chmod 000 titi;  tr A a <titi | tr -cs a b | sort | uniq | comm -23 - /usr/share/dict/words && cat < titi > 0
+echo lol
+cd /home && tree | grep 2015
+cp ../42sh . ; cat 42sh | cat 42sh|head -n 1 > toto ; cat 42sh | cat 42sh|head -n 1 > tata; rm toto tata
+ls > toto ; cat < toto > raclette ; grep < raclette | cat -e | wc -l > toto ; ls > titi ; cat < titi > tutu ; grep < tutu i | cat -e | wc -l > toto
+> toto ls      -l ; echo oui > tutu ; cat < toto | grep i >> tutu ; ls -l /dev | grep tty | grep 3 >> tutu ; < tutu cat | grep t | > toto wc -c ; > tata ls      -l ; echo oui > titi ; cat < tata | grep i >> titi ; ls -l /dev | grep tty | grep 3 >> titi ; < titi cat | grep t | > tata wc -c; rm titi toto tutu tata
+touch titi; chmod 000 titi;  tr A a <titi | tr -cs a b | sort | uniq | comm -23 - /usr/share/dict/words
+||
+ls ||
+|| ls
+ls || ls -l
+toto || ls -l
+ls -l || toto
+toto || toto
+ls && ls -l || ls
+ls && toto || ls
+ls || ls -l && ls
+ls || toto && ls
+||&&
+&&||
+ls || ls -l && cat /etc/host || ls -Rsa .
+ls && ls -l || cat /etc/host && ls -Rsa .
+|
+ls |
+ls | cat -e
+| ls |
+ls | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e | cat -e
+cat -e | ls
+ls -l | cat -e | grep test | cat
+ls | cat | cat | cat | grep test | cat | cat -e | grep testx
+cat -e | ls ; ps | grep cat; ps | grep ls
+ls -l > totopepito ; ls ; rm totopepito
+ls > totopepito -l ; rm totopepito
+> toto ls -l ; rm toto
+>toto ls ; tm toto
+ls -l>toto; rm toto
+ls -l> toto -R ; rm toto
+ls -l >> tutu ; rm tutu
+pwd >>>> test ; rm test
+>> titi ; rm titi
+cat -e << EOF
+ls <<< titi
+pwd >> < titi > out ; rm out
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;ls;toto;
+;;toto;;ls
+ls;pwd;grep -r a
+ls -l ;;   ;  ; echo marsupilami
+ls -l;;echo marsupilami
+ls      -l      ;    echo          marsupilami
+ls -l;;echo marsupilami
+ls -l   ;echo marsupilami
+setenv toto
+setenv toto titi
+setenv toto titi toto
+setenv toto= toto
+setenv toto_ toto
+setenv =toto titi
+setenv _toto titi
+setenv 2toto toto
+setenv TOTO titi ; env | grep TOTO ; setenv TOTO tata ; env | grep TOTO
+setenv PATH toto titi ; env | /usr/bin/grep PATH
+ls -l > toto; cat < toto -e
+<
+< toto
+< ls
+cat < /etc/host
+cat < /tmp
+touch toto ; chmod 000 toto ; cat < toto
+>
+> titi
+> toto ls ; cat toto
+> ls
+ls > toto ; cat toto
+touch toto ; ls > toto
+ls > /tmp
+ls > toto | ls
+ls     -l
+                                        pwd
+                                        ls      -l      -R        .
+unsetenv PATH ; env | /usr/bin/grep PATH
+unsetenv
+unsetenv PATH HOST; env |  /usr/bin/grep PATH ; env | /usr/bin/grep HOST
+setenv TITI ; env | grep TITI ; unsetenv TITI ; env | grep TITIwhich which
+which ls
+which
+which a
